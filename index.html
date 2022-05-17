@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>avgphim</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- <link rel="stylesheet" href="font/fontawesome-free-6.0.0-web/css/all.css"> -->
+    <link rel="stylesheet" href="font/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="css/cinemal.css">
+    <link rel="stylesheet" href="css/watch.css">
+    <link rel="stylesheet" href="css/updateMovie.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="image/x-icon" href="https://ephoto360.com/uploads/worigin/2019/06/03/Tao_logo_3D_phong_cach_Avengers5cf4e15887a54_e43bd3c7b69e832b5414bc12e5603ba5.jpg">
+</head>
+<body>
+
+        <div id="main">
+            <!-- Phần header -->
+            <div id="header">
+                <div class="header__container">
+
+                    <div  class="header__one">
+                        <div class="header__one__logo">
+                            <a href="">avgphim</a>  
+                        </div>
+                        <ul class="header__two__list">
+                            <li class="header__list__item"><a href="">Home</a></li>         
+                            <li class="header__list__item oddMovie__JS">Phim chiếu rạp</li>
+                            <li class="header__list__item seriesMovie__JS">Phim bộ</li>
+                        </ul>
+                        <div class="header__one__search">
+                            <div class="header__one__search__box">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <input type="text" class="search__input" placeholder="Tên phim, diễn viên...">
+                        </div>
+                        <ul  class="suggestSearch">
+                            <!-- <li>spiderman</li>
+                            <li>spiderman</li>
+                            <li>spiderman</li>
+                            <li>spiderman</li> -->
+                        </ul>
+                        <div class="header__menu">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+                    <!-- Phần phim đáng chú ý -->
+                    <div   id="Movie__remarkable">
+                        <div class="Movie__remarkable__image">
+                            <img src="" alt="">
+                        </div>
+                        <div class="Movie__remarkable__infor">
+                            <h5></h5>
+                            <span class="Movie__remarkable__description">
+                                
+                            </span>
+                            <span  class="Movie__remarkable__watchnow">
+                                <i class="fa-solid fa-play"></i>
+                                Xem phim
+                            </span>
+                            <span class="Movie__remarkable__popular">
+                                THỊNH HÀNH
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Nội dung trang mô tả -->
+                    <div   id="properties">
+                        <div class="properties__container">
+                            <div class="container__image">
+                                <img src="http://127.0.0.1:5500/image/movie/noWayHome.jpg" alt="" class="image__movie">
+                            </div>
+                            <div class="properties__infor">
+                                <h1 class="properties__infor__tittle">Spider Man: No Way Home</h1>
+                                <p class="description">Nội dung: <span>Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.</span></p>
+                                <p class="realeaseDate">Release date: <span>2021-12-15</span></p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    
+                                </div>
+                                 <div class="properties__infor__watch">
+                                     <span class="watch__movie">Xem Phim</span>
+                                     <span class="watch__trailler">Xem trailler</span>
+                                     <!-- <span class="watch__favorites">Add to favorites</span> -->
+                                 </div>
+                            </div>
+                        </div>
+                        <!-- <div class="actor">
+                            <h4>Actor</h4>
+                            <div class="actor__grid">
+                                <div class="actor__container">
+                                    <div class="actor__container__image">
+                                        <img src="https://image.tmdb.org/t/p/w500/2qhIDp44cAqP2clOgt2afQI07X8.jpg" alt="">
+                                    </div>
+                                    <div class="name_actor">
+                                        <span>Tom Holland</span>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div> -->
+                        <!-- <div  class="content_2">
+                            <div class="content_ui">
+                                <div class="next_prev">
+                                    <i class="fa-solid fa-angle-left"></i>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                                <div class="content__slider">
+                                    <div class="contenr__slider__heading">
+                                        <h3 class="contenr__slider__heading__item">Phim Mới</h3>
+                                    </div>
+                                    <div class="row ">
+                                       
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                     <!-- Hển thị kết quả tìm kiếm -->
+                   <div class="searchResult">
+                      <div class="searchResult__heading">
+                    <h5>Kết quả tìm kiếm</h5>
+                   </div>
+               <div class="result__search">                     
+                   <div class="upadateMovie__seriesMovie__item">
+                       
+                       <div class="image__search">
+                           <!-- <img src="image/movie/dealschool3.jpg" alt="" class="col__image"> -->
+                       </div>
+                    
+                       <div class="infor__movie">
+                           <span>Ngôi trưỡng xác sống dddddddd</span>
+                           <span>ALL of Us Are Dead</span>
+                       </div>
+                   </div>
+                  
+               </div>
+                   </div>
+                     <!--nội dung trang xem phim -->
+                   <div id="watchMovie">
+                <div class="watchMovie__container">
+                    <div class="container__windowMovie">
+                        <div class="watchMovie__container__heading">
+                            <span>avgphim >> <span class="name__Namewatchmovie">Người nhện xa nhà - <span class="name__Namewatchmovi2">No Way Home</span></span></span>
+                        </div>
+                        <div class="watchMovie__container__video">
+                            <iframe class="iframe" width="1100" height="500" src="https://www.youtube.com/embed/BIvezCVcsYs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="error__container">
+                        <h5 class="error__heading">Đề Xuất</h5>
+                        <!-- <div class="upadateMovie__container__error">
+                           <div class="error__image">
+                               <img src="https://image.tmdb.org/t/p/w500//6DrHO1jr3qVrViUO6s6kFiAGM7.jpg" alt="">
+                           </div>
+                           <div class="error__infor">
+                               <span>Pokémon Detective </span>
+                               <div class="error__infor__icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                               </div>
+                           </div>
+                        </div> -->
+                        
+                    </div>
+                </div>
+                    <div class="watchMovie__container__NameMovie">
+                        <h1>Công tố viên chuyển sinh </h1> - 
+                        <p>Again My Life</p> - 
+                        <span>Tập 1</span>
+                    </div>
+                    <div class="watchMovie__container__description">
+                        <span>Bộ phim xoay quanh hành trình sống còn, chống lại xác sống của một nhóm học sinh bị mắc kẹt trong trường học khi xuất hiện một loại virus lây nhiễm có khả năng biến con người thành xác sống đang lây lan khắp thành phố. Tình bạn và các giá trị đạo đức của họ đang bị đe dọa, khi họ chiến đấu để tồn tại.</span>
+                    </div>
+                    <div class="watchMovie__container__list">
+                        <h3>Danh sách tập</h3>
+                        <div class="list__episodeMovie">  
+                            
+                            
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+            <!-- Phần content -->
+            <div id="container__content">
+               
+                <div id="content">
+                    <div class="content_ui">
+                        <div class="content__slider">
+                            <div class="contenr__slider__heading">
+                                <h3 class="contenr__slider__heading__item">HÔM NAY XEM GÌ?</h3>
+                            </div>
+                           
+                            <div  class="row">
+                                
+                                <!-- <div class="colItem js-filter">
+                                    <div class="colItem__image">
+                                        <img src="https://image.tmdb.org/t/p/w500//q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg" alt="">
+                                    </div>
+                                    <div class="colItem__infor">
+                                       <span class="name">oke</span>
+                                   </div>
+                                </div> -->
+                               
+                            </div>
+                        </div>
+
+                    </div>
+                </div> 
+                <!-- Trang phim lẻ -->
+                <div  class="pageoddMovie pageoddMovie__JS">
+                    <div class="pageoddMovie_Container">
+                        <!-- <div class="upadateMovie__seriesMovie__item upadateMovie__seriesMovie__item__JS">
+                       
+                            <div class="image__search">
+                                <img src="image/movie/dealschool3.jpg" alt="" class="col__image">
+                            </div>
+                         
+                            <div class="infor__movie">
+                                <span>Ngôi trưỡng xác sống dddddddd</span>
+                                <span>ALL of Us Are Dead</span>
+                            </div>
+                        </div> -->
+         
+                    </div>
+                    <div class="btn__loadNext">
+                        <span>Trang Tiếp <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <!-- Trang phim bộ -->
+                <div class="seriesMovieContainer">
+                    <div class="seriesMovieItem__wrapper">
+                        <div class="seriesMovieContainer__item">
+                                <div class="image__search">
+                                    <img src="image/movie/dealschool3.jpg" alt="" class="col__image">
+                                </div>
+                             
+                                <div class="infor__movie">
+                                    <span>Ngôi trưỡng xác sống dddddddd</span>
+                                    <span>ALL of Us Are Dead</span>
+                                </div>
+                        </div>
+                         <div class="seriesMovieContainer__item">
+                                <div class="image__search">
+                                    <img src="image/movie/dealschool3.jpg" alt="" class="col__image">
+                                </div>
+                             
+                                <div class="infor__movie">
+                                    <span>Ngôi trưỡng xác sống dddddddd</span>
+                                    <span>ALL of Us Are Dead</span>
+                                </div>
+                        </div>
+                        <div class="seriesMovieContainer__item">
+                            <div class="image__search">
+                                <img src="image/movie/dealschool3.jpg" alt="" class="col__image">
+                            </div>
+                         
+                            <div class="infor__movie">
+                                <span>Ngôi trưỡng xác sống dddddddd</span>
+                                <span>ALL of Us Are Dead</span>
+                            </div>
+                    </div>
+                       
+                    </div>
+                        <div class="btn__loadNextSeries">
+                            <span>Trang Tiếp <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    
+                </div>
+                 <!-- Trang phim bộ -->
+                
+                <!-- Phim HOT -->
+                 <div class="hotMovie">
+                     <div class="hotMovie__heding">
+                         <span>XEM NHIỀU NHẤT</span>
+                     </div>
+                     <div class="hotMovie_container">
+                         <div class="hotMovie_container__item">
+                            <div class="hotMovie_container__item__image">
+                                <img src="https://image.tmdb.org/t/p/w500//50UQeTrUM7ErXzkvqCsV6EXcM3g.jpg" alt="">
+                            </div>
+                            <div class="hotMovie_container__item__infor">
+                                <div class="hotMovie_container__item__infor__star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span>Annarasumanara: Thanh Âm Của Phép Thuật - The Sound of Magic (2022)</span>
+                            </div>
+                         </div>
+                        
+                     </div>
+                 </div>
+            </div>     
+        </div>
+        <div class="watchMovie__cmt">
+            <div class="watchMovie__cmt__avatar">
+           <img src="data:image/jpeg;base64,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" alt="">
+            </div>
+            <div class="watchMovie__cmt__input">
+           <form action="" method="get">
+               <input type="text" placeholder="Viết bình luận...">
+               <div class="button__submit">
+                   <button >Đăng</button>
+               </div>
+           </form>
+            </div>
+        </div>
+                 <!-- phần footer -->
+        <footer id="footer">
+            <div class="footer__name">vandinh410807@gmail.com</div>
+        </footer>
+                 <!-- Xem trailer -->
+        <div  class="watchTrailer">
+        <div class="icon_close">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="watchTrailer__item">
+            <div class="watchTrailer__item__heading">
+                <h5>Trailer Movie</h5>
+           </div>
+           <div class="watchTrailer__item__video">
+               <div class="watchTrailer__item__iframe">
+                   <div class="iframe__container">
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/3y0KM5jUnmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                   </div>
+                  
+               </div>
+           </div>
+        </div>
+        </div>
+                 <!-- Thông Báo-->
+        <div  class="notification_load">
+        <div class="notification_load__item">
+            <h5>Chúc bạn xem phim vui vẻ</h5>
+            <span></span>
+        </div>
+        </div>
+</body>
+<script src="index.js"></script>
+<script src="responsive.js"></script>
+</html>

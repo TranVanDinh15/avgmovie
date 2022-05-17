@@ -1,0 +1,138 @@
+#watchMovie{
+    width: 1200px;
+    margin: 0 auto 40px auto;
+    display: none;
+    transition: 0.4s;
+    animation: translates ease 0.4s;
+    z-index: 1;
+}
+.watchMovie__container{
+    display: flex;
+    
+}
+.watchMovie__container__heading{
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.watchMovie__container__heading span{
+    z-index: 11;
+}
+.watchMovie__container__video{
+    display: flex;
+    justify-content: center;
+}
+.watchMovie__container__video iframe{
+    width: 900px !important;
+    border-radius: 4px;
+    z-index: 10;
+}
+.watchMovie__container__NameMovie{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.watchMovie__container__NameMovie h1{
+    z-index: 10;
+    display: flex;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+}
+.watchMovie__container__NameMovie p{
+    z-index: 10;
+    font-size: 25px;
+    color: orangered;
+}
+.watchMovie__container__NameMovie span{
+    z-index: 10;
+    font-size: 25px;
+}
+.watchMovie__container__description{
+    padding: 14px 0;
+    text-align: justify;
+}
+.watchMovie__container__description span{
+    color: var( --00B7FF);
+    font-size: 20px;
+    line-height: 2;
+    z-index: 1
+}
+.watchMovie__container__list h3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px 0;
+    z-index: 1;
+}
+.list__episodeMovie{
+    margin-bottom: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.list__episodeMovie span{
+    padding: 5px 10px ;
+    background-color: green;
+    color: var(--while);
+    border-radius: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.episode__list__JS{
+    margin-right: 10px;
+}
+.list__episodeMovie span:hover{
+    background-color: orangered;
+}
+.watchMovie__cmt{
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    padding: 40px;
+}
+.watchMovie__cmt__avatar{
+    width: 100px;
+    height: 40px;
+    margin-right: 80px;
+}
+.watchMovie__cmt__avatar img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.watchMovie__cmt__input{
+    border: 1px solid #ccc;
+    /* height: 100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    
+}
+.watchMovie__cmt__input input{
+    width: 90%;
+    height: 100px;
+    padding-left: 20px;
+}
+.button__submit{
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.button__submit button{
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 2px;
+    color: var(--while);
+    background-color: #1877f2;
+    cursor: pointer;
+}
+.content2{
+    display: flex !important;
+}

@@ -1,0 +1,327 @@
+@media (max-width: 821px) {
+  #header {
+    width: 852px !important;
+  }
+  .header__menu {
+    width: 100% !important;
+    display: block;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  }
+  .header__one {
+    height: 150px;
+    position: relative;
+  }
+  .header__one__logo {
+    margin-left: 30px;
+  }
+  .notification_load {
+    display: none;
+  }
+  .header__two__list {
+    position: absolute;
+    top: 0px;
+    flex-direction: column;
+    background-color: var(--primary);
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    right: 22%;
+    z-index: 11;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    display: none;
+    animation: translateHeader ease 0.4s;
+  }
+  @keyframes translateHeader {
+    from {
+      transform: translateX(1000px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  #Movie__remarkable {
+    margin: 10px 30px;
+    margin-left: 85px;
+    width: 100%;
+  }
+  .Movie__remarkable__image img {
+    width: 200px;
+  }
+  .Movie__remarkable__infor h5 {
+    font-size: 30px;
+  }
+  .Movie__remarkable__description {
+    display: none;
+  }
+  .Movie__remarkable__watchnow {
+    font-size: 20px;
+  }
+  .Movie__remarkable__infor {
+    flex-basis: 59%;
+  }
+  .Movie__remarkable__popular {
+    font-size: 30px;
+  }
+  .header__list__item {
+    margin-top: 40px;
+  }
+
+  .header__one__search {
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 0;
+    margin: 20px 0 20px 0;
+    display: flex;
+  }
+  /* content css */
+  #content {
+    /* margin: 0  40px; */
+    width: 800px;
+  }
+  .content__slider {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #container__content {
+    margin-top: 60px;
+  }
+  .upadateMovie__heading {
+    width: 838px;
+  }
+  .contenr__slider__heading {
+    margin-right: 26px;
+  }
+  .upadateMovie__heading__item {
+    padding: 0px 230px;
+  }
+  #upadateMovie__container {
+    width: 821px;
+  }
+  .error__container {
+    display: none;
+  }
+  .pageoddMovie {
+    width: 845px;
+  }
+  .upadateMovie__seriesMovie {
+    width: 852px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .update__reponsive {
+    margin-left: 10px;
+  }
+  .seriesMovie {
+    margin-left: 43px;
+  }
+  .slick-initialized .slick-slide {
+    /* width: 300px; */
+    /* width: 500px; */
+    margin-left: 10px;
+  }
+  .colContent_Responsive {
+    margin-right: 30px;
+  }
+  .colImage__responsive {
+    /* width: 100%; */
+    object-fit: cover;
+  }
+  .slick-initialized .slick-slide {
+    width: 200px;
+    height: 500px;
+    /* margin-left: 20px; */
+    border-radius: 16px;
+  }
+  .slick-prev {
+    left: 18px;
+  }
+  .update__reponsive {
+    width: 40%;
+    height: 420px;
+    /* margin-left: 10px;
+    margin-right: -10px; */
+    margin-bottom: 30px;
+    border-radius: 16px;
+  }
+  /* Properties */
+  .container__image {
+    margin: 0 0 0 30px;
+  }
+  .description {
+    display: none;
+  }
+  .properties__infor__tittle {
+    width: 270px;
+    line-height: 1.5;
+  }
+  .watchTrailer__item {
+    margin-top: 25%;
+  }
+  .watchMovie__cmt {
+    width: 772px;
+  }
+  #watchMovie {
+  }
+  .watchMovie__container__video {
+    width: 852px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .watchMovie__container__video iframe {
+    width: 700px;
+    height: 400px;
+  }
+  .watchMovie__container__heading {
+    margin-left: 30px;
+  }
+  .watchMovie__container__NameMovie {
+    margin-left: 30px;
+    width: 800px;
+  }
+  .watchMovie__container__description{
+    width: 770px;
+    margin-left: 30px;
+  }
+  .watchMovie__container__list{
+    margin-left: 30px;
+    width: 790px;
+  }
+}
+@media (max-width: 361px) {
+  #header{
+    width: 360px !important;
+  }
+  .header__one__logo{
+    position: absolute;
+    top: 0px;
+  }
+  .header__one__logo a{
+    font-size: 24px;
+    /* z-index: 20; */
+  }
+  .header__one__search{
+    height: 50px;
+    left: 10px;
+    width: 342px;
+    top: 78px
+  }
+  .header__menu{
+    position: absolute;
+    top: 50px;
+    left: -262px;
+    font-size: 30px;
+    /* display: block; */
+    
+  }
+  .header__two__list{
+    position: fixed;
+    left: 160px;
+}
+  
+  .Movie__remarkable__image img{
+    display: none;
+  }
+  #Movie__remarkable{
+    margin: 0;
+    display: block;
+  }
+  .Movie__remarkable__infor{
+    margin: 30px 28px
+  }
+  /* content */
+  #content{
+    width: 360px;
+  }
+  .content__slider{
+    width: 360px;
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .contenr__slider__heading{
+    border-bottom:none;
+  }
+  .colItem{
+    margin: 0px 37px
+  }
+  .hotMovie{
+    display: none;
+  }
+  .watchMovie__cmt{
+    display: none;
+  }
+  /* properties */
+  .container__image{
+    display: none;
+  }
+  .properties__infor{
+    margin: 37px;
+  }
+  /* footer */
+  #footer{
+    position: relative;
+    bottom: 0;
+  }
+  .footer__name{
+    width: 360px;
+    font-size: 20px;
+  }
+  /* page 3 */
+  .watchMovie__container__heading{
+    margin: 20px
+  }
+  .watchMovie__container__video{
+    width: 360px;
+  }
+  .watchMovie__container__video iframe{
+    width: 250px;
+    height: 200px;
+  }
+  .watchMovie__container{
+    height: 260px
+  }
+  .watchMovie__container__NameMovie{
+
+    margin-left: 20px;
+  }
+  .watchMovie__container__NameMovie h1{
+    font-size: 20px;
+  }
+  .watchMovie__container__description{
+    width: 320px;
+    word-wrap: break-word;
+    margin: 0 20px;
+  }
+  .watchMovie__container__description span{
+    font-size: 12px;
+  }
+  .watchMovie__container__list{
+    width: 360px;
+    margin: 10px;
+  }
+  .upadateMovie__seriesMovie__item{
+    flex-basis: 130%;
+  }
+  .btn__loadNext{
+    display: block;
+    width: 360px;
+    margin: 0 109px 21px 0;
+  }
+  .seriesMovieItem__wrapper{
+    width: 360px;
+    justify-content: center;
+  }
+  .searchResult{
+    width: 360px;
+  }
+}

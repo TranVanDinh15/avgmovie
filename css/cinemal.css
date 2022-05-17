@@ -1,0 +1,287 @@
+body{
+    
+    width: 100%;
+    height: auto;
+    background:var(--primary);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#properties{
+    display: none;
+    width: 1200px;
+    margin: 0 auto;
+    transition: 0.4s;
+    animation: translates ease 0.4s;
+}
+
+.properties__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container__image{
+    flex-basis: 40%;
+    margin-right: 80px;
+    margin-top: 40px;
+    z-index: 1;
+}
+.image__movie{
+    border-radius: 10px;
+    overflow: hidden;
+    height: 400px;
+    object-fit: contain;
+}
+.properties__infor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 60%;
+    z-index: 1;
+}
+.properties__infor__tittle{
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.description{
+    color: var(--while);
+    margin: 20px 0;
+    /* font-size: 20px; */
+    letter-spacing: 1px;
+    color: #e7e70f;
+    text-align: justify;
+    line-height: 1.5;
+}
+.description span{
+    color: #fff;
+    font-size: 18px;
+}
+.realeaseDate{
+    color: #e7e70f;
+    margin-bottom: 16px;
+}
+.realeaseDate span{
+    color: #fff;
+}
+.star{
+    color: #e7e70f;
+    margin-bottom: 26px;
+    margin-top: 20px;
+    
+}
+.star i{
+    font-size: 14px;
+}
+.properties__infor__watch .watch__movie{
+    margin-right: 10px;
+    background-color: var( --00B7FF);
+    padding: 10px;
+    color: var(--while);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.watch__trailler{
+    margin-right: 10px;
+    background-color: var( --00B7FF);
+    padding: 10px;
+    color: var(--while);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.watch__favorites{
+    margin-right: 10px;
+    background-color: var( --00B7FF);
+    padding: 10px;
+    color: var(--while);
+    border-radius: 6px;
+    cursor: pointer;
+}
+/* actor */
+.actor h4{
+    margin-top: 80px;
+    color: var(--orange);
+    font-size: 24px;
+    font-weight: 700;
+}
+.actor__grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: auto;
+   column-gap:20px;
+   row-gap:40px;
+   margin: 40px 0;
+}
+
+.actor__container__image{
+    overflow: hidden;
+    border-radius: 10px;
+    height: 320px;
+}
+.actor__container img{
+    width: 100%;
+    overflow: hidden;
+
+}
+.actor__container img:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.name_actor{
+    margin-top: 20px;
+}
+.actor__container span{
+    display: flex;
+    justify-content: center;
+    color: var(--while);
+    font-size: 18px;
+    z-index: 1;
+    color: orangered;
+}
+#footer{
+    background-color: var(--primary);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+}
+.footer__name{
+    margin-left: 40px;
+    user-select: none;
+    color: var(--while);
+    font-size: 30px;
+    font-weight: 700;
+}
+.footer__socialties{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-right: 40px;
+}
+.footer__socialties i{
+    margin-right: 10px;
+    font-size: 30px;
+    color: #fff;
+}
+/* Xem trailer */
+.watchTrailer{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    /* justify-content: center;
+    align-items: center; */
+    z-index: 10;
+}
+.watchTrailer__item{
+    position: relative;
+    width: 400px;
+    height: 540px;
+    background-image: url(https://tophinhanhdep.com/wp-content/uploads/2021/10/Marvel-Avengers-Wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 60px;
+    overflow-y: scroll;
+    border-radius: 4px;
+    
+}
+.watchTrailer__item__heading {
+    color: var(--black);
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    z-index: 4;
+    padding-top: 10px;
+}
+.watchTrailer__item__heading h5{
+    font-weight: 500;
+    color: #fff;
+}
+.watchTrailer__item i{
+    color: var(--while);
+}
+.icon_close{
+    position: absolute;
+    background-color: #e7e70f;
+    top: 14px;
+    right: 10%;
+    z-index: 2;
+    padding: 10px 14px;
+    border-radius: 50%;
+}
+.watchTrailer__item::-webkit-scrollbar{
+    display: none;
+}
+.iframe__container{
+    margin-bottom: 10px;
+    /* margin-top: 60pxs; */
+}
+.iframe__trailer{
+    /* display: block; */
+}
+.hotMovie{
+    margin-left: 40px;
+    margin-top: 100px;
+}
+.hotMovie_container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+.hotMovie_container__item{
+    margin-top: 20px;
+    float: left;
+    width: calc(100%/5);
+}
+.hotMovie__heding{
+    margin-bottom: 20px;
+}
+.hotMovie__heding span{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--while);
+}
+.hotMovie_container__item__image{
+    cursor: pointer;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 4px;
+    
+}
+.hotMovie_container__item__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s;
+    
+}
+.hotMovie_container__item__infor{
+    width: 190px;
+    cursor: pointer;
+    padding-top: 20px;
+}
+.hotMovie_container__item:hover .hotMovie_container__item__infor span{
+    color: #ccc;
+}
+.hotMovie_container__item:hover .hotMovie_container__item__image img{
+    transform: scale(1.1);
+}
+.hotMovie_container__item__infor span{
+    font-size: 20px;
+    color: var(--while);
+    transition: 0.2s;
+}
+.hotMovie_container__item__infor__star{
+    margin-bottom: 6px;
+    color: #e7e70f;
+    font-size: 10px;
+}
